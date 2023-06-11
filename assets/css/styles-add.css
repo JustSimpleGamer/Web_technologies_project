@@ -1,0 +1,80 @@
+body
+{
+}
+
+.header
+{
+    height: 80px;
+}
+
+.main_content
+{
+    margin-top: 0px;
+}
+
+.products
+{
+    margin: auto;
+    width: 1200px;
+    height: 100%;
+}
+
+.product
+{
+    display: flex;
+    margin-top: 40px;
+    width: 1200px;
+    height: 420px;
+    background-color: #adadad;
+    border-radius: 20px;
+    line-height: 30px;
+}
+
+.products .product img
+{
+    margin-top: 12px;
+    margin-left: 12px;
+    border-radius: 10px;
+    height: 360px;
+}
+
+.products .product .img-SSD\'s
+{
+    width: 600px;
+    height: 150px;
+}
+
+.products .product .img-CS\'s
+{
+    width: 800px;
+    height: 200px;
+}
+
+.price
+{
+    position: absolute;
+    margin-top: 380px;
+    margin-left: 20px;
+    /*display: inline-block;*/
+    width: 296px;
+    height: 36px;
+    font-size: 32px;
+    text-align: center;
+}
+
+.products .product .specifications
+{
+    width: 360px;
+    height: 380px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.products .product .specifications_answers
+{
+    width: 500px;
+    height: 380px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

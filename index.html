@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Магазин комп'ютерних комплектуючих</title>
+    <link href="assets/css/reset.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="assets/css/styles-main.css">
+</head>
+<body>
+
+<header id="header" class="header">
+
+    <div class="hat">
+
+        <img src="assets/img/Logo_image.svg" alt="Logo image">
+
+        <div class="logo_title">
+            Магазин комп'ютерних комплектуючих
+        </div>
+
+        <div class="sign_in">
+            <a href="login.php">Увійти</a>
+        </div>
+    </div>
+
+    <div class="nav_buttons">
+        <a href="CPU's.html">Процесори</a>
+        <a href="GPU's.html">Відеокарти</a>
+        <a href="MB's.html">Материнські плати</a>
+        <a href="RAM's.html">Оперативна память</a>
+        <a href="HDD's.html">HDD дикси</a>
+        <a href="SSD's.html">SSD диски</a>
+        <a href="PS's.html">Блоки живлення</a>
+        <a href="CS's.html">Системи охолодження</a>
+<!--        <a href="">Корпуси</a>-->
+    </div>
+
+</header>
+<span id="hr1"></span>
+<main class="main_content">
+
+    <div class="gallery1 js-flickity" data-flickity-options='{ "wrapAround": true }'>
+        <div class="gallery1-cell">
+            <img width="100%" src="assets/img/Tittle/4060%20Ti.jpg">
+        </div>
+        <div class="gallery1-cell">
+            <img width="100%" src="assets/img/Tittle/7600.jpg">
+        </div>
+        <div class="gallery1-cell">
+            <img width="100%" src="assets/img/Tittle/7800X3D.jpg">
+        </div>
+        <div class="gallery1-cell">
+            <img width="100%" src="assets/img/Tittle/Core%2013th.jpg">
+        </div>
+    </div>
+
+    <p id="p-popular">Популярні товари</p>
+
+    <div class="box-popular">
+
+        <div class="gallery2 js-flickity"  data-flickity-options='{ "wrapAround": true }'>
+            <div class="gallery2-cell">
+                <span></span>
+                <img src="assets/img/Products/CPU's/13100.jpg">
+                <p>Intel Core i3 13100</p>
+                <p>Від 3.999 грн</p>
+            </div>
+            <div class="gallery2-cell">
+                <span></span>
+                <img src="assets/img/Products/CPU's/12400.jpg">
+                <p>Intel Core i5 12400</p>
+                <p>Від 6.999 грн</p>
+            </div>
+            <div class="gallery2-cell">
+                <span></span>
+                <img src="assets/img/Products/GPU's/3060.jpg">
+                <p>Nvidia geforce RTX 3060</p>
+                <p>Від 13.499 грн</p>
+            </div>
+            <div class="gallery2-cell">
+                <span></span>
+                <img src="assets/img/Products/GPU's/3080%20Ti.jpg">
+                <p>Nvidia geforce RTX 3080 Ti</p>
+                <p>Від 39.999 грн</p>
+            </div>
+            <div class="gallery2-cell">
+                <span></span>
+                <img src="assets/img/Products/RAM's/Kingston%20Fury%20Beast%20DDR4%202x8Gb.jpg">
+                <p>Kingston Fury Beast DDR4 2x8Gb</p>
+                <p>Від 1.799 грн</p>
+            </div>
+            <div class="gallery2-cell">
+                <span></span>
+                <img src="assets/img/Products/RAM's/Kingston%20Fury%20Renegade%20DDR4%202x16Gb.jpg">
+                <p>Kingston Fury Renegade DDR4 2x16Gb</p>
+                <p>Від 3.499 грн</p>
+            </div>
+            <div class="gallery2-cell">
+                <span></span>
+                <img src="assets/img/Products/SSD's/Samsung%20980%20NVMe%20M.2%20MZ-V8V1T0BW.jpg">
+                <p>Samsung 980 NVMe</p>
+                <p>Від 2.499 грн</p>
+            </div>
+            <div class="gallery2-cell">
+                <span></span>
+                <img src="assets/img/Products/SSD's/WD%20Blue%20SN570%20WDS100T3B0C.jpg">
+                <p>WD Blue SN570</p>
+                <p>Від 2.799 грн</p>
+            </div>
+            <div class="gallery2-cell">
+                <span></span>
+                <img src="assets/img/Products/SSD's/GOODRAM%20CX400.jpg">
+                <p>GOODRAM CX400</p>
+                <p>Від 1.899 грн</p>
+            </div>
+            <div class="gallery2-cell">
+                <span></span>
+                <img src="assets/img/Products/PS's/Chieftec%20Proton.jpg">
+                <p>Chieftec Proton 600 Вт</p>
+                <p>Від 2.599 грн</p>
+            </div>
+            <div class="gallery2-cell">
+                <span></span>
+                <img src="assets/img/Products/CS's/Deepcool%20GAMMAXX%20300.jpg">
+                <p>Deepcool GAMMAXX 300</p>
+                <p>Від 699 грн</p>
+            </div>
+            <div class="gallery2-cell">
+                <span></span>
+                <img src="assets/img/Products/CS's/ARCTIC%20Liquid%20Freezer%20II%20240.jpg">
+                <p>ARCTIC Liquid Freezer II 240</p>
+                <p>Від 3.999 грн</p>
+            </div>
+        </div>
+
+    </div>
+
+    <span id="hr2"></span>
+
+    <p id="p-news">Новини та останні поставки</p>
+
+    <div class="box-news">
+
+        <div class="inbox-news">
+            <div class="new-cell">
+                <img src="assets/img/News%20and%20deliveries/4060ti.png">
+                <p class="news_titile">Свіжа новинка Nvidia вже в асортименті!</p>
+                <p class="news_content">Нещодавно вишедша новинка від Nvidia в лиці 4060 Ti вже поступила у магазин, яку можна купити від 19.999 грн!</p>
+            </div>
+            <div class="new-cell">
+                <img src="assets/img/News%20and%20deliveries/AM5%20problem.jpg">
+                <p class="news_titile">Проблема процесорів AM5 вирішена!</p>
+                <p class="news_content">Проблема прогару процесорів AMD на платформі AM5 була вирішена з новими драйверами материнських плат, тому ці процесори знову можна спокійно брати.</p>
+            </div>
+            <div class="new-cell">
+                <img src="assets/img/News%20and%20deliveries/7600.jpg">
+                <p class="news_titile">RX 7600 конкурує з 4060 Ti</p>
+                <p class="news_content">Середньо буджетні новинки гігантів у вироблені графічних чіпів зійшлись у битві за покупця і RX 7600, за свою ціну, добряче випереджує 4060 Ti по своїй привабливості.</p>
+            </div>
+            <div class="new-cell">
+                <img src="assets/img/News%20and%20deliveries/7800x3d.jpg">
+                <p class="news_titile">Ігро-напрямлений процесор AMD випереджає топ Intel</p>
+                <p class="news_content">Процесор AMD ігрового напямку Ryzen 7 7800X3D обганяє флагман Intel, core i9 13900k, в іграх в середньому на 15-20%!</p>
+            </div>
+        </div>
+
+        <div class="inbox-news">
+            <div class="new-cell">
+                <div class="new-cell">
+                    <img src="assets/img/News%20and%20deliveries/Nvidia.png">
+                    <p class="news_titile">Nvidia коштує тріліон доларів!</p>
+                    <p class="news_content">Капіталізація Nvidia перетнула відмітку в 1 тріліон доларів і зупинятись вона не збирається.</p>
+                </div>
+            </div>
+            <div class="new-cell">
+                <img src="assets/img/News%20and%20deliveries/DeepCool%20GAMMAX%20300.png">
+                <p class="news_titile">Ленегда бюджетних збірок знову у нашому магазині!</p>
+                <p class="news_content">Найпопуляріший активний кулер низькобуджетних компютерних збірок DeepCool GAMMAX 300 після тривалого проміжку часу знову зявляється в нашому магазині.</p>
+            </div>
+            <div class="new-cell">
+                <img src="assets/img/News%20and%20deliveries/2%25.jpg">
+                <p class="news_titile">2% різниці!</p>
+                <p class="news_content">Нещодвано вишедша середньо-бюджетна новинка Nvidia в лиці 4060 Ti виявилася всього на 2% швидше за свою попереднию - 3060 Ti.</p>
+            </div>
+            <div class="new-cell">
+                <p class="wait">Очікуйте нові новини та свіжі поставки найблищим часом</p>
+            </div>
+        </div>
+
+    </div>
+
+    <span id="hr3"></span>
+
+    <p class="video_tittle">Відео, що пов'язане з останньою новиною</p>
+
+    <div class="box-video">
+        <iframe width="100%" height="800"
+                src=https://www.youtube.com/embed/i0iC2VQgwes?autoplay=0&color=red frameborder="0" allowfullscreen>
+        </iframe>
+    </div>
+
+    <span id="hr4"></span>
+
+</main>
+
+<section class="footer">
+    <div class="footer_content">
+        <form id="subscription_form">
+
+            <p class="title">Сподобались товари нашого сайту? <br> Тоді підписуйся на наш блог, щоб не пропустити свіжі новини та не упустити унікальну пропозицію!<br><br></p>
+            <div class="inputs">
+                <input type="text" name="name" required placeholder="Ім'я">
+                <input type="email" name="email" required placeholder="Пошта">
+            </div>
+
+            <button type="submit">Підписатись</button>
+
+        </form>
+        <div class="contact_information1">
+
+            <p class="contact_information_tittle">Контактна інформація</p><br>
+            <p>Номер телефону розробника сайту: ***-***-**-**</p><br>
+            <p>Адреса розробника сайту: lmaxl100ukr.net@gmail.com</p><br>
+            <p></p><br>
+            <p></p><br>
+            <p></p><br>
+            <p></p><br>
+            <p></p><br>
+            <p></p><br>
+            <span>@Шуневич Максим КІ2-22-1</span><br>
+        </div>
+
+        <div class="contact_information2">
+
+            <p class="contact_information_tittle">Додаткові посилання</p><br>
+            <a href="about.html">Про нас</a><br><br>
+            <a href="">Git Hub</a><br><br>
+            <a href="">Steam</a><br>
+            <p></p><br>
+            <p></p><br>
+            <p></p><br>
+            <p></p><br>
+            <p></p><br>
+            <a href="admin.php">адмін</a>
+
+        </div>
+    </div>
+
+</section>
+
+<div class="btn-up btn-up_hide"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
