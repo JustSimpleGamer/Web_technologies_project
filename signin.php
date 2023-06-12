@@ -1,10 +1,10 @@
 <?php
-session_start();
+//session_start();
 require 'C:/Personal/Programs/XAMPP/htdocs/Test_Course_project/src/auth.php';
 require 'C:/Personal/Programs/XAMPP/htdocs/Test_Course_project/src/subscription.php';
 //Авторизуємо користувача, якщо в запиті є логін і пароль
 if (isset($_POST['login']) && isset($_POST['password']))
-{ 
+{
     login($_POST['login'], $_POST['password']);
 }
 ?>
@@ -25,7 +25,7 @@ if (isset($_POST['login']) && isset($_POST['password']))
 <?php if (isAuthorized()): ?>
     <?php require 'C:/Personal/Programs/XAMPP/htdocs/Test_Course_project/admin.php' ?>
 <?php else: ?>
-    <?php require 'C:/Personal/Programs/XAMPP/htdocs/Test_Course_project/login.php' ?>
+    <?php require 'C:/Personal/Programs/XAMPP/htdocs/Test_Course_project/login.php'?>
 <?php endif; ?>
 
 </body>

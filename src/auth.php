@@ -9,7 +9,7 @@ const ADMIN_PASSWORD = 'admin';
  * @return bool
  */
 
-/*function login($login, $password)
+function login($login, $password)
 {
     if ($login === ADMIN_LOGIN && $password === ADMIN_PASSWORD) {
         $_SESSION['authorized'] = true;
@@ -19,13 +19,13 @@ const ADMIN_PASSWORD = 'admin';
     {
         return false;
     }
-}*/
-
-function login($login, $password)
-{
-    $_SESSION['authorized'] = true;
-    return true;
 }
+
+//function login($login, $password)
+//{
+//    $_SESSION['authorized'] = true;
+//    return true;
+//}
 
 /**
  * Перевіряє чи користувач авторизований

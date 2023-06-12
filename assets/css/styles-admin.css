@@ -1,0 +1,69 @@
+body{
+    background-color: whitesmoke;
+}
+
+.header
+{
+    height: 150px;
+    width: 100%;
+}
+
+.header .hat
+{
+    /*display: flex;*/
+    margin: auto;
+    width: 1920px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+
+    background: #212121;
+    border: 1px solid #111111;
+    box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header .hat img
+{
+    position: absolute;
+    display: inline-block;
+    margin-left: 900px;
+    top: 0px;
+    width: 80px;
+    height: 80px;
+}
+
+.header .hat .logo_title
+{
+    display: inline-block;
+    color: whitesmoke;
+    font-size: 30px;
+    font-family: Roboto,Arial,Helvetica,sans-serif;
+    margin-left: 340px;
+    margin-top: 17px;
+}
+
+.header .hat .sign_in
+{
+    position: absolute;
+    width: 100px;
+    height: 48px;
+    top: 16px;
+    right: 80px;
+    /*margin-left: auto;*/
+    border-radius: 10px;
+    background-color: #3b3b3b;
+    font-size: 24px;
+    padding-top: 6px;
+    text-align: center;
+}
+
+.header .hat .sign_in a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.header .hat .sign_in:hover
+{
+    background-color: #565656;
+}

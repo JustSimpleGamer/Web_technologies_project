@@ -40,19 +40,42 @@
                 </div>
 
                 <button class="btn btn-lg btn-primary btn-block" type="submit">Увійти</button>
-                <!--            <a class="nav-link" href="signIn.php">Sign out</a>-->
             </form>
         </div>
     </div>
 </div>
 
-<!--<div class="form-group">-->
-<!--    <label for="inputEmail" class="sr-only">Login</label>-->
-<!--    <input type="text" name="login" id="inputEmail" class="form-control" placeholder="Login" autofocus>-->
-<!--</div>-->
-<!--<div class="form-group">-->
-<!--    <label for="inputEmail" class="sr-only">Password</label>-->
-<!--    <input type="password" name="password" id="inputPassword" class="form-control" placeholder="Password" required>-->
-<!--</div>-->
 
 
+
+<?php
+const ADMIN_LOGIN = 'admin';
+const ADMIN_PASSWORD = 'admin';
+
+function login($login, $password)
+{
+    if ($login === ADMIN_LOGIN && $password === ADMIN_PASSWORD) {
+        $_SESSION['authorized'] = true;
+        return true;
+    }
+    return false;
+}
+
+function isAuthorized()
+{
+    return isset($_SESSION['authorized']) && $_SESSION['authorized'] === true;
+}
+
+function logout()
+{
+    unset($_SESSION['authorized']);
+}
+if (isset($_POST['login']) && isset($_POST['password'])) {
+    login($_POST['login'], $_POST['password']);
+}
+
+if (isAuthorized()) {
+    header("Location: admin.php");
+    exit;
+}
+?>
