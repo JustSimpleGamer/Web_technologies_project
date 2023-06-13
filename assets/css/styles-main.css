@@ -48,7 +48,7 @@ a:hover
 {
     position: absolute;
     display: inline-block;
-    margin-left: 900px;
+    margin-left: 340px;
     top: 0px;
     width: 80px;
     height: 80px;
@@ -60,7 +60,7 @@ a:hover
     color: whitesmoke;
     font-size: 30px;
     font-family: Roboto,Arial,Helvetica,sans-serif;
-    margin-left: 340px;
+    margin-left: 440px;
     margin-top: 25px;
 }
 
@@ -144,7 +144,7 @@ a:hover
     margin-top: 25px;
     display: flex;
     justify-content: center;
-    font-size: 48px;
+    font-size: 36px;
 }
 
 .main_content #hr2
@@ -245,7 +245,7 @@ a:hover
 .video_tittle {
     margin-top: 20px;
     text-align: center;
-    font-size: 48px;
+    font-size: 36px;
 }
 
 .main_content .box-video
@@ -574,13 +574,13 @@ td{
     margin-right: 30px;
     background: #adadad;
     border: 0px solid;
-    border-radius: 10px;
+    border-radius: 20px;
     /*counter-increment: gallery-cell;*/
 }
 
 .gallery1-cell img
 {
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 /* cell number */
@@ -602,7 +602,7 @@ td{
     width: 300px;
     height: 384px;
     margin-right: 40px;
-    background: #adadad;
+    background: #c4c4c4;
     border: 0px solid;
     border-radius: 20px;
     /*counter-increment: gallery-cell;*/
@@ -691,6 +691,15 @@ td{
         background-color: #8f8f8f; /* цвет заднего фона при наведении */
     }
 }
+
+.contact_information2 a{
+    margin-left: 30px;
+    line-height: 24px;
+}
+
+.contact_information2 img{
+    position: absolute;
+}
 /*/////End Up button to scroll the site page to the top /////*/
 
 .authorization_box{
@@ -746,6 +755,9 @@ h1{
     background-color: #565656;
 }
 
+.gallery2-cell_price{
+    color: #c9830a;
+}
 
 
 

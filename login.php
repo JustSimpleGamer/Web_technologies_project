@@ -45,12 +45,9 @@
     </div>
 </div>
 
-
-
-
 <?php
 const ADMIN_LOGIN = 'admin';
-const ADMIN_PASSWORD = 'admin';
+const ADMIN_PASSWORD = 'pain';
 
 function login($login, $password)
 {
